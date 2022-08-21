@@ -17,6 +17,6 @@ void lava_init() {
 	blockEntry entry;
 	entry.renderBlock = render;
 	registerBlock(10, entry);
-	registerBlock(11, entry);
+	registerBlock(1, entry);
 	tex_lava = getTexture(14, 1);
 }
